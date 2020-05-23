@@ -158,7 +158,7 @@ keypairs you have, so just ignore this error and let the script continue:
 
 ```
 cd ~/non-profit-blockchain/ngo-fabric
-./3-vpc-client-node.sh
+./vpc-client-node.sh
 ```
 
 Check the progress in the AWS CloudFormation console and wait until the stack is CREATE COMPLETE.
@@ -899,4 +899,5 @@ The workshop instructions can be found in the README files in parts 1-4:
 * [Part 3:](../ngo-rest-api/README.md) Run the RESTful API server. 
 * [Part 4:](../ngo-ui/README.md) Run the application. 
 * [Part 5:](../new-member/README.md) Add a new member to the network. 
-* [Part 6:](../ngo-lambda/README.md) Query the blockchain with a Lambda function. 
+* [Part 6:](../ngo-lambda/README.md) Read and write to the blockchain with Amazon API Gateway and AWS Lambda.
+* [Part 7:](../ngo-events/README.md) Use blockchain events to notify users of NGO donations.
